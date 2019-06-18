@@ -55,7 +55,9 @@ void DefaultBootSequencer::doBoot()
     g_Logger.infoLog(Logger::MSGID_BOOTSEQUENCER, "Bootd's job is done");
 
     ApplicationManager::instance()->listLaunchPoints(&m_bootManager, EventCoreTimeout::EventCoreTimeout_Max);
+    /* Disable the launch of bareapp since we don't include it in LuneOS images
     launchTargetApp();
+    */
 }
 
 void DefaultBootSequencer::launchTargetApp()
