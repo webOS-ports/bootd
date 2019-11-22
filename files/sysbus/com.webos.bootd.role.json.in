@@ -13,7 +13,8 @@
                 "com.webos.service.connectionmanager",
                 "com.webos.settingsservice",
                 "com.webos.surfacemanager",
-                "com.webos.service.activitymanager.client"
+                "com.webos.service.activitymanager.client",
+                "com.palm.webappmanager"
             ]
         }
     ]
