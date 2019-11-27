@@ -14,7 +14,8 @@
                 "com.webos.settingsservice",
                 "com.webos.surfacemanager",
                 "com.webos.service.activitymanager.client",
-                "com.palm.webappmanager"
+                "com.palm.webappmanager",
+                "com.palm.applicationManager"
             ]
         }
     ]
